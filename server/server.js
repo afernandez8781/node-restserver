@@ -15,8 +15,8 @@ app.use(bodyParser.urlencoded({ extended: false }))
 // parse application/json
 app.use(bodyParser.json())
 
-app.use(require('./rutes/usuario'));
-
+//Configuración global de rutas
+app.use(require("./rutes/index"));
 
 
 
